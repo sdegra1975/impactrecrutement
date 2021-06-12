@@ -2,7 +2,7 @@
   import './styles.scss';
   import { Router, Link, Route } from 'svelte-routing';
   import About from './About.svelte';
-  import Products from './products/Products.svelte';
+  import Candidats from './candidats/Candidats.svelte';
 
   import { HeaderBar, NavBar, PageNotFound, Redirect } from './components';
 
@@ -16,9 +16,9 @@
     <main class="column">
       <div>
         <Route path="/">
-          <Redirect path="/products" />
+          <Redirect path="/candidats" />
         </Route>
-        <Route path="/products" component={Products} />
+        <Route path="/candidats" component={Candidats} />
         <Route path="/about" component={About} />
         <Route path="**" component={PageNotFound} />
       </div>
