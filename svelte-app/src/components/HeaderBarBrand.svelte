@@ -1,3 +1,6 @@
+<script>
+	let src = './Logo-150.png';
+</script>
 <div class="navbar-brand">
   <a
     class="navbar-item"
@@ -7,8 +10,6 @@
     <img src="./svelte-icon.png" alt="Svelte" />
   </a>
   <router-link to="/" class="navbar-item nav-home">
-    <span class="brand-first">MY</span>
-    <span class="brand-second">SHOPPING</span>
-    <span class="brand-third">LISTS</span>
+    <img {src} alt="Logo d'Impact Recrutement">
   </router-link>
 </div>
