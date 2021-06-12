@@ -9,6 +9,6 @@
   <router-link to="/" class="navbar-item nav-home">
     <span class="brand-first">MY</span>
     <span class="brand-second">SHOPPING</span>
-    <span class="brand-third">LIST</span>
+    <span class="brand-third">LISTS</span>
   </router-link>
 </div>
